@@ -7,11 +7,12 @@
     "build:prod": "npm run lint && npm run clean && ng build --aot --prod --no-sourcemap --stats-json --environment prod && npm run sw",
     "build:serve": "npm run build && http-server dist/",
     "bundle-report": "webpack-bundle-analyzer dist/stats.json",
+    "ci": "npm run lint && npm run unit && npm run e2e && npm run build",
     "clean": "rimraf dist",
     "coverage": "ng test --code-coverage",
     "e2e": "ng e2e",
     "hmr": "ng serve --hmr -e=hmr",
-    "lint": "ng lint --type-check",
+    "lint": "ng lint --type-check --format=stylish",
     "serve": "npm run start",
     "start": "ng serve --open --verbose",
     "test": "ng test",
@@ -50,6 +51,6 @@
     "protractor": "~5.1.0",
     "ts-node": "~3.0.4",
     "tslint": "~5.2.0",
-    "typescript": "~2.4.0-dev.20170512"
+    "typescript": "^2.3.3"
   }
 }

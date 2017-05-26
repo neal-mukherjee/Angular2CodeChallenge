@@ -10,7 +10,7 @@
     "target": "es5",
     "module": "es6",
     "baseUrl": "src",
-    "paths": {
+      "paths": {
       "@core/*": [
         "./app/core/*"
       ],
