@@ -1,5 +1,6 @@
 import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 
+/* tslint:disable:no-input-rename */ // Only for demo purposes
 /**
  * Attribute Directive Demo
  */
