@@ -1,4 +1,4 @@
-# AcnNgStarter
+# Accenture Angular Starter
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3. It provides additional capabilities and recommendations for designing the modules within the application.
 
@@ -8,6 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Defined and scaffolded the theme and core modules. These modules are loaded on initial scaffold of the application and can be used to host modules, themes and components that are required on application load.
 
 ### HMR (Hot Module Reloading)
+Run HMR with `npm run hmr`.
 HMR is a feature to inject updated modules into the active runtime. During developement (serving the application locally), it hot swaps modules that are changed instead of re-building the entire application. 
 
 HMR Documentation: https://webpack.github.io/docs/hot-module-replacement.html
